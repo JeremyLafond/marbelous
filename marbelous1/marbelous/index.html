@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="./xxhash.min.js"></script>
+    <script src="./p5.min.js"></script>
+    <script src="./addons/p5.dom.js"></script>
+    <script src="./support.js"></script>
+    <script language="javascript" type="text/javascript" src="./addons/p5.sound.js"></script>
+    <script src="gyrojs-master/js/gyro.js"></script>
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width">
+    <script>
+      gyro.startTracking(function(o) {
+        // o.x, o.y, o.z for accelerometer
+        // o.alpha, o.beta, o.gamma for gyro
+      });
+    </script>
+    <script src="world.js"></script>
+    <style>
+    </style>
+  </head>
+  <body>
+  <div id="container"></div>
+<!--   <p>Move with the arrow keys, click to change terrain, enter a world seed for a new world.</p>  
+  <p>This is an empty project, designed to act as a framework to start you off on this assignment. You should find your own way to approach this project.</p>
+  <p>You should also replace this text with your own artist statement.</p> -->
+  </body>
+</html>
